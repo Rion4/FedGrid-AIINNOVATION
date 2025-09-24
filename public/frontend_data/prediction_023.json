@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2025-09-24T02:32:12.428796Z",
+  "prediction_id": "pred_1758681132_22",
+  "actual_24h_sum_kw": 2244.61,
+  "predicted_24h_sum_kw": 2335.03,
+  "federated_prediction_kw": 2292.43,
+  "error_percent": 4.03,
+  "federated_error_percent": 2.13,
+  "status": "\u2705 Success",
+  "model_version": "2.1.2",
+  "federated_nodes": [
+    {
+      "node_id": "node_north",
+      "node_name": "North Mangalore Node",
+      "local_prediction_kw": 2248.29,
+      "node_weight": 0.25,
+      "accuracy_score": 89.0,
+      "contribution": 562.07
+    },
+    {
+      "node_id": "node_south",
+      "node_name": "South Mangalore Node",
+      "local_prediction_kw": 2439.28,
+      "node_weight": 0.2,
+      "accuracy_score": 89.14,
+      "contribution": 487.86
+    },
+    {
+      "node_id": "node_east",
+      "node_name": "East Mangalore Node",
+      "local_prediction_kw": 2290.9,
+      "node_weight": 0.18,
+      "accuracy_score": 90.74,
+      "contribution": 412.36
+    },
+    {
+      "node_id": "node_west",
+      "node_name": "West Mangalore Node",
+      "local_prediction_kw": 2152.0,
+      "node_weight": 0.22,
+      "accuracy_score": 97.6,
+      "contribution": 473.44
+    },
+    {
+      "node_id": "node_central",
+      "node_name": "Central Mangalore Node",
+      "local_prediction_kw": 2377.98,
+      "node_weight": 0.15,
+      "accuracy_score": 96.75,
+      "contribution": 356.7
+    }
+  ],
+  "aggregation_method": "weighted_average",
+  "total_nodes": 5
+}
